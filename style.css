@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(6,107,162);
+    background: linear-gradient(90deg, rgba(6,107,162,1) 6%, rgba(5,123,176,1) 24%, rgba(0,212,255,1) 100%);
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color:black;
+}
+
+.caixas{
+    width: 850px;
+    display: flex;
+    justify-content: center;
+}
+.caixas .linha {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.subtitulo{
+    text-align: center;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 45px;
+}
+
+.linha {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.principal{
+    border: solid white 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.subtitulo{
+    color:white;
+}
+
+.textos {
+    margin: 10px;
+    color: white;
+}
+
+.explorar a {
+    margin: 10px;
+    text-decoration: none;
+    color: #219ebc;
+    font-weight: bold;
+
+}
+
