@@ -16,6 +16,7 @@ body {
 
 .container{
     background-color:black;
+    margin-top: 20px;
 }
 
 .caixas{
@@ -29,6 +30,7 @@ body {
 }
 
 .titulo{
+    margin-top: 10px;
     display:flex;
     justify-content: center;
     text-align: center;
